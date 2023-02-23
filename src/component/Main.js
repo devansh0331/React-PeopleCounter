@@ -22,7 +22,7 @@ function Main() {
     }
   return (
     <div className='box'>
-      <span className='boxHead'>People Counter</span> 
+      <span className='boxHead'>React People Counter</span> 
       <div className='count'>{countVal}</div>
       <div className='btns'>
       <button className='btn incr' onClick={handlIncr}>Increment</button>
